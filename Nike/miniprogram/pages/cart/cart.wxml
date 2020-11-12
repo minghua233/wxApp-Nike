@@ -21,7 +21,9 @@
   <view class="like">
     <view class="like-title">猜你喜欢</view>
     <view class="like-content">
-      <view class="like-each"></view>
+      <scroll-view scroll-x="{{true}}" class="like-each">
+        <likeItem class="item" wx:for="{{10}}" wx:key="index"></likeItem>
+      </scroll-view>
     </view>
   </view>
 </view>

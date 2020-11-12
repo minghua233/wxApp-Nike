@@ -48,9 +48,19 @@
 }
 .like{
   background-color: #fff;
-  padding: 60rpx 40rpx;
+  padding-top: 60rpx;
 }
 .like-title{      
+  padding-left: 40rpx;
   font-size: 32rpx;
   font-weight: 600; 
+}
+.like-each{
+  height: 450rpx;
+  white-space: nowrap;
+  margin-left: 20rpx;
+}
+.like-content{
+  margin-top: 50rpx;
+  
 }

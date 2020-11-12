@@ -56,7 +56,7 @@
   font-weight: 600; 
 }
 .like-each{
-  height: 450rpx;
+  height: 460rpx;
   white-space: nowrap;
   margin-left: 20rpx;
 }

@@ -1,0 +1,8 @@
+<!-- components/likeItem/likeItem.wxml -->
+<view class="items">
+  <view class="item">
+    <image src="../../images/shoes1.jpg" class="item_img" />
+    <text class="item_title">Kybrid S2 EP\n</text>
+    <text class="item_price">￥ 1,099</text>
+  </view>
+</view>

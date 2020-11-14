@@ -1,8 +1,46 @@
 <!--pages/mine/mine.wxml-->
-<view>
-    <view>
-        
+<nav-bar title="我的账户" statusBarColor="#ffffff" navBarColor="#ffffff" titleColor="#000000"></nav-bar>
+<view class="head">
+    <view class="portrait">
+        <van-image
+            round
+            width="240rpx"
+            height="240rpx"
+            src="https://img.yzcdn.cn/vant/cat.jpeg"
+        />
     </view>
-      
+    <view class="container">
+        <p class="title1">制胜必需</p>
+        <p class="title1">这里必备</p>
+        <p class="title2">成为Nike会员，解锁独享尖货</p>
+        <p class="title2">专属体验和个性激励等丰富福利</p>
+        <van-button round type="info" plain color="#000" 
+            custom-style="font-size: 0.8em; letter-spacing:0.3em; text-align:center; font-weight:bold; margin: 50rpx 0;">注册登录</van-button>
+    </view>
 </view>
-  
+<view class="action">
+    <block wx:for="{{groupList}}" wx:key="{{index}}">
+        <operation iconPath="{{item.iconPath}}" title="{{item.title}}"></operation>
+    </block>
+</view>
+<van-cell-group>
+    <block wx:for="{{list}}" wx:key="{{index}}">
+        <van-cell title="{{item}}" size="large" is-link />
+    </block> 
+</van-cell-group>
+<view class="public_box">
+    <attention></attention>
+</view>
+<view class="shop">
+    <view class="shop_head">
+        <view class="shop_head_image">
+            <image src="../../res/mine_icon/耐克商店.png" class="filled"/>
+        </view>
+        <p>耐克旗舰店</p>
+    </view>
+    <view class="shop_image_box">
+        <image src="../../res/mine_icon/耐克实体店.jpg" class="filled"/>
+    </view>
+    <p class="title4">耐克上海001</p>
+    <p class="title5">上海市南京东路829号</p>
+</view>

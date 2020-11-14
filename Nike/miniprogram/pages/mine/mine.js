@@ -5,7 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    groupList: [
+      {
+        iconPath: '../../res/mine_icon/订单信息.png',
+        title: '订单信息'
+      },
+      {
+        iconPath: '../../res/mine_icon/我的活动.png',
+        title: '我的活动'
+      },
+      {
+        iconPath: '../../res/mine_icon/附近商店.png',
+        title: '附近商店'
+      },
+      {
+        iconPath: '../../res/mine_icon/地址薄.png',
+        title: '地址薄'
+      }
+    ],
+    list: [
+      '帮助中心',
+      '系统设置'
+    ]
   },
 
   /**

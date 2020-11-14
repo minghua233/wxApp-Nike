@@ -2,6 +2,15 @@
 App({
   onLaunch: function () {
     
+    // 获取statusBarHeight(导航栏电量那里的高度)
+    let info = wx.getSystemInfoSync();
+    wx.statusBarHeight = info.statusBarHeight;
+    if(info.platform === 'android') {
+      wx.navBarHeight = 48
+    }else {
+      wx.navBarHeight = 44
+    }
+
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {

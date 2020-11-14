@@ -1,0 +1,16 @@
+<!-- components/attention/attention.wxml -->
+<view class="public">
+    <view class="icon_nike">
+        <image src="../../res/mine_icon/微信图标.png" class="filled" />
+    </view>
+    <view class="title_public">
+        <p class="title3">更多精彩</p>
+        <p class="title3">尽在Nike公众号</p>
+    </view>
+    <view class="btn_public">
+        <van-button round type="info" color="#000" custom-style="font-size: 0.8em; letter-spacing: 0.3em; text-align: center; height: 2.5em; vertical-align: middle;">
+            去关注
+            <span id="arrow"></span>
+        </van-button>
+    </view>
+</view>

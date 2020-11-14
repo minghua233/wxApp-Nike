@@ -1,0 +1,30 @@
+/* components/attention/attention.wxss */
+.public {
+    margin: 58rpx 44rpx;
+    padding: 36rpx 40rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 7px 20px #ececec;
+    border-radius: 20rpx;
+}
+.icon_nike {
+    width: 100rpx;
+    height: 100rpx;
+}
+.filled {
+    width: 100%;
+    height: 100%;
+}
+.title3 {
+    font-size: 0.8em;
+}
+#arrow{
+    width: 0.4em;
+    height: 0.4em;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    display: inline-block;
+    transform: rotate(45deg);
+    vertical-align: middle;
+}

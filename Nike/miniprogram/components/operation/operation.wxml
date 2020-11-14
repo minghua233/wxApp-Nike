@@ -1,0 +1,9 @@
+<!--components/operation/operation.wxml-->
+<view class="operation">
+    <view class="icon">
+        <image class="icon_icon" src="{{iconPath}}" />
+    </view>
+    <view class="title">
+    {{title}}
+    </view>
+</view>
